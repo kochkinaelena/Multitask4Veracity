@@ -10,21 +10,21 @@ Raw data can be downloaded at https://figshare.com/articles/PHEME_dataset_for_Ru
 
 ### Install prerequisites 
 
- - Python 3
- - Keras
- - Hyperopt
- - Optparse
+ * Python 3
+ * Keras
+ * Hyperopt
+ * Optparse
  
 ### Run outer.py
 
 #### outer.py has the following options:
---model - which task to train, stance or veracity
---data - which dataset to use 
---search  - boolean, controls whether parameter search should be performed
---ntrials - if --search is True then this controls how many different 
+* --model - which task to train, stance or veracity
+* --data - which dataset to use 
+* --search  - boolean, controls whether parameter search should be performed
+* --ntrials - if --search is True then this controls how many different 
             parameter combinations should be assessed
---params - specifies filepath to file with parameters if --search is false
--h, --help - explains the command line 
+* --params - specifies filepath to file with parameters if --search is false
+* -h, --help - explains the command line 
 
 running
 

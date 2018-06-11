@@ -45,37 +45,44 @@ python outer.py --model='mtl2stance' --data='RumEval' --search=True --ntrials=50
 ```
 ##### FullPHEME
 
+5 folds
 ```
-python outer.py --model='mtl2stance' --data='RumEval' --search=True --ntrials=50
+python outer.py --model='mtl2stance' --data='PHEME5' --search=True --ntrials=50
 ```
-
 or
+
+9 folds
 ```
-python outer.py --model='mtl2stance' --data='RumEval' --search=True --ntrials=50
+python outer.py --model='mtl2stance' --data='PHEME9' --search=True --ntrials=50
 ```
 
 
 #### MTL2 Veracity + Detection
 
+5 folds
 ```
-python outer.py --model='mtl2stance' --data='RumEval' --search=True --ntrials=50
+python outer.py --model='mtl2detect' --data='PHEME5' --search=True --ntrials=50
 ```
-
 or
+
+9 folds
 ```
-python outer.py --model='mtl2stance' --data='RumEval' --search=True --ntrials=50
+python outer.py --model='mtl2detect' --data='PHEME9' --search=True --ntrials=50
 ```
 
 
 #### MTL3 Veracity + Stance + Detection
 
+5 folds
 ```
-python outer.py --model='mtl2stance' --data='RumEval' --search=True --ntrials=50
+python outer.py --model='mtl3' --data='PHEME5' --search=True --ntrials=50
 ```
 
 or
+
+9 folds
 ```
-python outer.py --model='mtl2stance' --data='RumEval' --search=True --ntrials=50
+python outer.py --model='mtl3' --data='PHEME9' --search=True --ntrials=50
 ```
 
 

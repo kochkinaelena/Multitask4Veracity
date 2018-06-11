@@ -7,13 +7,14 @@ Raw data can be downloaded at https://figshare.com/articles/PHEME_dataset_for_Ru
 
 
 ## To run the code:
-
+```
 python outer.py
+```
 
 will be equivalent to running:
-
+```
 python outer.py --model='mtl2stance' --data='RumEval' --search=True --ntrials=10 --params="output/bestparams.txt" 
-
+```
 ## outer.py has the following options:
 --model - which task to train, stance or veracity
 --data - which dataset to use 
@@ -24,7 +25,7 @@ python outer.py --model='mtl2stance' --data='RumEval' --search=True --ntrials=10
 -h, --help - explains the command line 
 
 
-Required libraries:
+## Required libraries:
 
  - Python 3
  - Keras

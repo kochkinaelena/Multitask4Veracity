@@ -6,16 +6,18 @@ This code relies on preprocessed data that can be downloaded at https://figshare
 Raw data can be downloaded at https://figshare.com/articles/PHEME_dataset_for_Rumour_Detection_and_Veracity_Classification/6392078
 
 
-## To run the code:
-```
-python outer.py
-```
+## How to run the code:
 
-will be equivalent to running:
-```
-python outer.py --model='mtl2stance' --data='RumEval' --search=True --ntrials=10 --params="output/bestparams.txt" 
-```
-## outer.py has the following options:
+### Install prerequisites 
+
+ - Python 3
+ - Keras
+ - Hyperopt
+ - Optparse
+ 
+### Run outer.py
+
+#### outer.py has the following options:
 --model - which task to train, stance or veracity
 --data - which dataset to use 
 --search  - boolean, controls whether parameter search should be performed
@@ -24,11 +26,13 @@ python outer.py --model='mtl2stance' --data='RumEval' --search=True --ntrials=10
 --params - specifies filepath to file with parameters if --search is false
 -h, --help - explains the command line 
 
+running
 
-## Required libraries:
+```
+python outer.py
+```
 
- - Python 3
- - Keras
- - Hyperopt
- - Optparse
- 
+will be equivalent to running:
+```
+python outer.py --model='mtl2stance' --data='RumEval' --search=True --ntrials=10 --params="output/bestparams.txt" 
+```

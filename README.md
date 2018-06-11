@@ -40,15 +40,45 @@ python outer.py --model='mtl2stance' --data='RumEval' --search=True --ntrials=10
 #### MTL2 Veracity + Stance
 
 ##### RumEval
-
+```
 python outer.py --model='mtl2stance' --data='RumEval' --search=True --ntrials=50
-
+```
 ##### FullPHEME
+
+```
+python outer.py --model='mtl2stance' --data='RumEval' --search=True --ntrials=50
+```
+
+or
+```
+python outer.py --model='mtl2stance' --data='RumEval' --search=True --ntrials=50
+```
+
 
 #### MTL2 Veracity + Detection
 
+```
+python outer.py --model='mtl2stance' --data='RumEval' --search=True --ntrials=50
+```
+
+or
+```
+python outer.py --model='mtl2stance' --data='RumEval' --search=True --ntrials=50
+```
+
 
 #### MTL3 Veracity + Stance + Detection
+
+```
+python outer.py --model='mtl2stance' --data='RumEval' --search=True --ntrials=50
+```
+
+or
+```
+python outer.py --model='mtl2stance' --data='RumEval' --search=True --ntrials=50
+```
+
+
 
 
 

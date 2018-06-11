@@ -36,3 +36,24 @@ will be equivalent to running:
 ```
 python outer.py --model='mtl2stance' --data='RumEval' --search=True --ntrials=10 --params="output/bestparams.txt" 
 ```
+
+#### MTL2 Veracity + Stance
+
+##### RumEval
+
+python outer.py --model='mtl2stance' --data='RumEval' --search=True --ntrials=50
+
+##### FullPHEME
+
+#### MTL2 Veracity + Detection
+
+
+#### MTL3 Veracity + Stance + Detection
+
+
+
+
+
+
+
+
